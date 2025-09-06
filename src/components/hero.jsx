@@ -65,7 +65,8 @@ export default function Hero() {
             href="#projects"
             className="px-5 py-3 rounded-md font-medium"
             style={{
-              background: "beige",
+              background: "#C0D0DE",
+              // background: "#218BC0",
               color: "#0b0f13",
               boxShadow: "0 0 24px #00F5FF66, 0 0 7px #00F5FF33",
             }}

@@ -106,7 +106,7 @@ export default function Page() {
               ref={nameRef}
               className="text-lg font-semibold tracking-wide inline-block leading-none"
               style={{
-                color: "beige",
+                color: "#C0D0DE",
                 willChange: "transform, opacity, text-shadow",
               }}
               aria-label="Soumadip Dhara home"
@@ -132,9 +132,9 @@ export default function Page() {
               href="#contact"
               className="px-4 py-2 rounded-md text-sm font-medium"
               style={{
-                background: "beige",
+                background: "#00F5FF",
                 color: "#0b0f13",
-                boxShadow: "0 0 24px #00F5FF66, 0 0 48px #00F5FF33",
+                boxShadow: "0 0 17px #00F5FF66, 0 0 57px #00F5FF33",
               }}
             >
               Hire Me
@@ -290,6 +290,7 @@ export default function Page() {
                 loop
                 muted
                 playsInline
+                preload="auto"
                 style={{
                   objectPosition: "center center",
                   minWidth: "100%",
